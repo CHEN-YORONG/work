@@ -1,4 +1,5 @@
 <?php  
+include __DIR__. '/partials/init.php';
 $title = '美食區';
 ?>
 

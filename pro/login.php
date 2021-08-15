@@ -1,5 +1,12 @@
 <?php
+include __DIR__. '/partials/init.php';
 $title = '登入';
+
+//如果有登入 直接跳轉首頁 離開登入畫面
+if(isset($_SESSION['user'])){
+    header('Location:index_.php');
+    exit;
+}
 ?>
 
 
